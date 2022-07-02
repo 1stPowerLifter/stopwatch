@@ -1,0 +1,73 @@
+.conteiner {
+    max-width: 700px;
+    margin: auto;
+
+    .scoreboard {
+        margin: 150px auto 75px auto;
+        width: 500px;
+        height: 150px;
+        background-color: cornsilk;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 90px;
+        -webkit-box-shadow: inset 0px 0px 23px 5px rgba(0, 0, 0, 0.5);
+        box-shadow: inset 0px 0px 23px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn-box {
+        margin: auto;
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .btn {
+            height: 50px;
+            width: 120px;
+            border: 2px solid gray;
+            border-radius: 25px;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+
+            &:hover {
+                -webkit-box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+                box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+            }
+        }
+
+        .btn-start {
+            color: rgb(12, 227, 12);
+
+            &:hover {
+                color: rgb(12, 161, 12);
+            }
+        }
+
+        .btn-stop {
+            color: red;
+
+            &:hover {
+                color: rgb(173, 14, 14);
+            }
+        }
+
+        .btn-wait {
+            color: rgb(12, 84, 227);
+
+            &:hover {
+                color: rgb(26, 8, 217);
+            }
+        }
+
+        .btn-reset {
+            color: rgb(250, 167, 0);
+
+            &:hover {
+                color: rgb(219, 141, 6);
+            }
+        }
+    }
+}
